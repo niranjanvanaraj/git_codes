@@ -1,0 +1,13 @@
+.link_task1{
+  padding-left: 1%;
+  font-size: 125%;
+  padding-top: 1%;
+  height: 5vh;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerdata{
+  height: 10vh;
+  background-color: bisque;
+}

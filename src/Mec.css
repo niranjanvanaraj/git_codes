@@ -1,0 +1,90 @@
+.login-background {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url("./Mec.jpeg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    color: white;
+}
+
+.left-side h1 {
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.white-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.white-box h3 {
+    color: #0f2963;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.input-block label {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.input-block input, 
+.input-block select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+
+.submit-btn {
+    background-color: #7da114;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}

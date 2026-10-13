@@ -1,0 +1,22 @@
+.login{
+    background-color: darkgray;
+    border-radius: 5%;
+    padding: 1%;
+    height: 20vh;
+    width: 20%;
+    opacity: 45%;
+    margin-left: 25%;
+    margin-top: 8%;
+   color:black
+}
+.loginbutton{
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.logindata{
+    background-image: url('D:/mern/src/Task1/Login_task1.jpg');
+    background-size: contain;
+    height: 90vh;
+    padding: 20px;
+    color: white;
+}
