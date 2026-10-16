@@ -3,31 +3,20 @@
 import {React,  useState, useEffect } from 'react';
 import {Routes, Route, Link } from "react-router-dom"
 import axios from 'axios';
-import Changer from './Changer';
-import Modelpopup from './Modelpopup';
 
-// import Product from "./Product"
-// import Mec from "./Mec"
-// import img1 from './shoe1.jpg'
-// import img2 from './shoe2.jpg'
-// import img3 from './shoe3.jpg'
-// import img4 from './sock1.jpg'
-// import img5 from './sock2.jpg'
-// import img6 from './sock3.jpg'
-
-// import Count from "./Count";
-// import Getdata from "./Getdata";
-
-import Home_task1 from "./Task1/Home_task1";
-import Accordion_task1 from "./Task1/Accordion_task1"
-import Login_task1 from "./Task1/Login_task1"
-import Contact_task1 from './Task1/Contact_task1'
-import About_task1 from './Task1/About_task1'
-import Projects_task1 from './Task1/Projects_task1'
-import Skills_task1 from './Task1/Skills_task1'
+import UserList from "./UserList";
 
 function App() {
-  
+  return (
+    <div>
+      <h1>User Directory</h1>
+      <UserList />
+    </div>
+  );
+}
+
+export default App;
+
   // const productObj = [
   //   {name: "Adidas", price: "2599", strikePrice: "5099",image: img1},
   //   {name: "Puma", price: "599", strikePrice: "3500",image: img2},
@@ -51,10 +40,17 @@ function App() {
   //       setActive(res.data[0]); 
   //     });https://api.coinpaprika.com/v1/cickers
   // }, []);
+  
+  // useEffect(()=>{
+  //   axios.get("http://localhost:5000/")
+  //   .then((res)=>{console.log(res.data)})
+  // },[])
+  //https://dummyjson.com/c/e2d7-5698-4370-bbf7
 
-  return (
-    <>
-    <Changer/>
+  // return (
+  //   <>
+
+    {/* <Changer/> */}
     {/* <Modelpopup />+ */}
     {/*  <Link to='/'>Home</Link>&nbsp;
     //   <Link to='/contact'>Contact</Link> &nbsp;
@@ -81,6 +77,7 @@ function App() {
         <Link to='./Projects'>Projects</Link>
       </div>
 
+
       <Routes>
         <Route path='/' element={<Home_task1 active={active} />}></Route>
         <Route path='/Login' element={<Login_task1 active={active} />}></Route>
@@ -94,9 +91,6 @@ function App() {
       </div> */}
 
 
-    </>
+    // </>
 
-  )
-}
 
-export default App;
